@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_weight="1">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_margin="0dp"
+                android:layout_weight="3"
+                app:srcCompat="@drawable/resitencia1" />
+
+            <TextView
+                android:id="@+id/tv_color1"
+                style="@style/change"
+                android:background="@color/coffe" />
+
+            <TextView
+                android:id="@+id/imageView2"
+                style="@style/change"
+                android:background="@color/resitor"/>
+
+            <TextView
+                android:id="@+id/tv_color2"
+                style="@style/change"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/imageView3"
+                style="@style/change"
+                android:background="@color/resitor"/>
+
+            <TextView
+                android:id="@+id/tv_color3"
+                style="@style/change"
+                android:background="@android:color/black" />
+            <TextView
+                android:id="@+id/image4"
+                android:layout_height="match_parent"
+                android:layout_width="30sp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/resitor"/>
+            <TextView
+                android:id="@+id/tv_color4"
+                style="@style/change"
+                android:background="@color/coffe" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_weight="3"
+                app:srcCompat="@drawable/resistencia2" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/tv_valor"
+            android:text="@string/valor_inicial"/>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="12">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_blanco"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/bt_negro1"
+                style="@style/margin_"
+                android:background="@android:color/black" />
+            <Button
+                android:id="@+id/bt_negro2"
+                style="@style/margin_"
+                android:background="@android:color/black"
+                />
+
+            <Button
+                android:id="@+id/bt_blanco1"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_cafe"
+                style="@style/margin_"
+                android:background="@color/coffe"/>
+            <Button
+                android:id="@+id/bt_cafe1"
+                style="@style/margin_"
+                android:background="@color/coffe"/>
+            <Button
+                android:id="@+id/bt_cafe2"
+                style="@style/margin_"
+                android:background="@color/coffe"/>
+            <Button
+                android:id="@+id/bt_cafe3"
+                style="@style/margin_"
+                android:background="@color/coffe"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_rojo"
+                style="@style/margin_"
+                android:background="@color/red"/>
+            <Button
+                android:id="@+id/bt_rojo1"
+                style="@style/margin_"
+                android:background="@color/red"/>
+            <Button
+                android:id="@+id/bt_rojo2"
+                style="@style/margin_"
+                android:background="@color/red"/>
+            <Button
+                android:id="@+id/bt_rojo3"
+                style="@style/margin_"
+                android:background="@color/red"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_orange"
+                style="@style/margin_"
+                android:background="@color/orange"/>
+            <Button
+                android:id="@+id/bt_orange1"
+                style="@style/margin_"
+                android:background="@color/orange"/>
+            <Button
+                android:id="@+id/bt_orange2"
+                style="@style/margin_"
+                android:background="@color/orange"/>
+            <Button
+                android:id="@+id/bt_orange3"
+                style="@style/margin_"
+                android:enabled="false"
+                android:background="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="10sp">
+            <Button
+                android:id="@+id/bt_yellow"
+                style="@style/margin_"
+                android:background="@color/yellow"/>
+            <Button
+                android:id="@+id/bt_yellow1"
+                style="@style/margin_"
+                android:background="@color/yellow"/>
+
+            <Button
+                android:id="@+id/bt_yellow2"
+                style="@style/margin_"
+                android:background="@color/yellow"/>
+            <Button
+                android:id="@+id/bt_blanco2"
+                style="@style/margin_"
+                android:enabled="false"
+                android:background="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_green"
+                style="@style/margin_"
+                android:background="@color/green"/>
+            <Button
+                android:id="@+id/bt_green1"
+                style="@style/margin_"
+                android:background="@color/green"/>
+            <Button
+                android:id="@+id/bt_green2"
+                style="@style/margin_"
+                android:background="@color/green"/>
+            <Button
+                android:id="@+id/bt_blanco_g"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_blue"
+                style="@style/margin_"
+                android:background="@color/blue"/>
+            <Button
+                android:id="@+id/bt_blue1"
+                style="@style/margin_"
+                android:background="@color/blue"/>
+            <Button
+                android:id="@+id/bt_blue2"
+                style="@style/margin_"
+                android:background="@color/blue"/>
+            <Button
+                android:id="@+id/bt_blanco_b"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_violet"
+                style="@style/margin_"
+                android:background="@color/violet"/>
+            <Button
+                android:id="@+id/bt_violet1"
+                style="@style/margin_"
+                android:background="@color/violet"/>
+            <Button
+                android:id="@+id/bt_violet2"
+                style="@style/margin_"
+                android:background="@color/violet"/>
+            <Button
+                android:id="@+id/bt_blanco_v"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="10sp">
+            <Button
+                android:id="@+id/bt_gray"
+                style="@style/margin_"
+                android:background="@color/gray"/>
+            <Button
+                android:id="@+id/bt_gray1"
+                style="@style/margin_"
+                android:background="@color/gray"/>
+            <Button
+                android:id="@+id/bt_gray2"
+                style="@style/margin_"
+                android:background="@color/gray"/>
+            <Button
+                android:id="@+id/bt_blanco_gr"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="10sp">
+            <Button
+                android:id="@+id/bt_white"
+                style="@style/margin_"
+                android:background="@color/white_"/>
+            <Button
+                android:id="@+id/bt_white1"
+                style="@style/margin_"
+                android:background="@color/white_"/>
+            <Button
+                android:id="@+id/bt_white2"
+                style="@style/margin_"
+                android:background="@color/white_"/>
+            <Button
+                android:id="@+id/bt_blanco3"
+                style="@style/margin_"
+                android:enabled="false"
+                android:background="@android:color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="10sp">
+            <Button
+                android:id="@+id/bt_blanco4"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_blanco5"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_blanco_d"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_dorado1"
+                style="@style/margin_"
+                android:background="@color/dorada"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bt_blanco6"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_blanco7"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_blanco_p"
+                style="@style/margin_"
+                android:background="@android:color/white"
+                android:enabled="false"/>
+            <Button
+                android:id="@+id/bt_plata2"
+                style="@style/margin_"
+                android:background="@color/plata"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

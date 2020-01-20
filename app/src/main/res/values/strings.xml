@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ResitorApp</string>
+    <string name="main_valor">Valor</string>
+    <string name="Rojo_p">#FF0000</string>
+    <string name="valor_inicial">10 Ω ± 1%</string>
+    <string name="uno">1</string>
+    <string name="Prueba">prueba</string>
+</resources>

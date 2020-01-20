@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F04336</color>
+    <color name="colorPrimaryDark">#ff0000</color>
+    <color name="colorAccent">#00FF00</color>
+    <color name="black">#000</color>
+    <color name="coffe">#633100</color>
+    <color name="red">#FF1010</color>
+    <color name="orange">#FF6600</color>
+    <color name="yellow">#FFEA04</color>
+    <color name="green">#009400</color>
+    <color name="blue">#0000F6</color>
+    <color name="violet">#81008B</color>
+    <color name= "gray">#7C7C7C</color>
+    <color name= "white_">#DEE1E9</color>
+    <color name= "dorada">#C79827</color>
+    <color name="plata">#ACACAC</color>
+    <color name="resitor">#D2A778</color>
+</resources>
